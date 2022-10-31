@@ -1,0 +1,144 @@
+  .break-word {
+      word-break: break-word;
+  }
+
+  .no-border {
+      border: none !important;
+  }
+
+  .weather {
+      background-color: #eef6fb;
+      height: 100vh;
+      padding: 4rem 0;
+  }
+
+  .city-tabs {
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 2rem;
+  }
+
+  .city-tabs button.active {
+      background: transparent;
+      border: 0;
+      color: #5fb0e8;
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0 1rem;
+  }
+
+  .city-tabs button {
+      background: transparent;
+      border: 0;
+      color: #333339;
+      font-size: 32px;
+      font-weight: 300;
+      margin: 0 1rem;
+  }
+
+  .weather-details {
+      background-color: #fff;
+      padding: 0.2rem;
+      border-radius: 7px;
+  }
+
+  .weather-details .today-weather {
+      background-color: #eef6fb;
+      text-align: center;
+      padding: 3rem 15px;
+      border-radius: 7px 7px 0 0;
+      -webkit-border-radius: 7px 7px 0 0;
+      -moz-border-radius: 7px 7px 0 0;
+      -ms-border-radius: 7px 7px 0 0;
+      -o-border-radius: 7px 7px 0 0;
+  }
+
+  .weather-details .today-weather .today-weather-details {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1rem;
+  }
+
+  .weather-details .today-weather .today-weather-details svg {
+      font-size: 6rem;
+      margin-right: 1rem;
+  }
+
+  .weather-details .today-weather .today-weather-details h1 {
+      font-size: 4rem;
+      margin-bottom: 0;
+  }
+
+  .weather-details .today-weather .today-weather-details h2 {
+      font-weight: 300;
+      font-size: 1.5rem;
+  }
+
+  .weather-details .today-weather h4 {
+      font-size: 1.7rem;
+      font-weight: 300;
+  }
+
+  .weather-details .week-weather {
+      background-color: #eef6fb;
+      text-align: center;
+      padding: 1rem 0;
+  }
+
+  .weather-details .week-weather h4 {
+      font-weight: 300;
+  }
+
+  .weather-details .week-weather svg {
+      font-size: 3rem;
+      margin: 0.5rem 0;
+  }
+
+  .weather-details .week-weather h2 {
+      font-weight: 400;
+  }
+
+  .weather-details .week-weather.day1-day {
+      border-radius: 0 0 0 7px;
+      -webkit-border-radius: 0 0 0 7px;
+      -moz-border-radius: 0 0 0 7px;
+      -ms-border-radius: 0 0 0 7px;
+      -o-border-radius: 0 0 0 7px;
+  }
+
+  .weather-details .week-weather.day4-day {
+      border-radius: 0 0 7px 0;
+      -webkit-border-radius: 0 0 7px 0;
+      -moz-border-radius: 0 0 7px 0;
+      -ms-border-radius: 0 0 7px 0;
+      -o-border-radius: 0 0 7px 0;
+  }
+
+  .weather-details .day1-col {
+      padding-right: 2px;
+  }
+
+  .weather-details .day2-col {
+      padding-left: 2px;
+      padding-right: 2px;
+  }
+
+  .weather-details .day3-col {
+      padding-left: 2px;
+      padding-right: 2px;
+  }
+
+  .weather-details .day4-col {
+      padding-left: 2px;
+  }
+  @media (max-width: 767px) {
+
+    .weather-details .day1-col,
+    .weather-details .day2-col,
+    .weather-details .day3-col,
+    .weather-details .day4-col {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}

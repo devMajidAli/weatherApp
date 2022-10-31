@@ -1,0 +1,11 @@
+const WEATHER_API_KEY = "dac1751161e0b848c77d33653ee4a7ec"
+const CITIES = {
+    OTTAWA: 6094817,
+    MOSCOW: 524894,
+    TOKYO: 1850144
+
+}
+export {
+    CITIES,
+    WEATHER_API_KEY
+}
