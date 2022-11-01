@@ -23,7 +23,7 @@ export default class WeatherDetails extends React.Component {
 
     changeOfCity(cityId: number) {
         this.setState({ selectedCity: cityId })
-        axios.get(`http://api.openweathermap.org/data/2.5/forecast?id=${cityId}&appid=${WEATHER_API_KEY}`).then(
+        axios.get(`https://api.openweathermap.org/data/2.5/forecast?id=${cityId}&appid=${WEATHER_API_KEY}`).then(
             response => {
                 this.setState({ weather: getUniqueList(response.data.list) })
             }
